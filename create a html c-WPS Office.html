@@ -1,0 +1,110 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ICON VISTA HOTELS</title>
+  <style>
+    body {
+      margin: 0;
+      background: #111;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #ffd700;
+      min-height: 100vh;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      background: #181818;
+      padding: 24px 0 12px 0;
+      justify-content: center;
+      border-bottom: 2px solid #ffd700;
+      letter-spacing: 2px;
+    }
+    .icon {
+      font-size: 2.3em;
+      margin-right: 18px;
+      color: #ffd700;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .list-container {
+      max-width: 440px;
+      margin: 42px auto;
+      background: rgba(35,30,10,0.92);
+      border: 1.5px solid #ffd700;
+      border-radius: 13px;
+      box-shadow: 0 6px 24px 0 rgba(60,30,5,0.17);
+      padding: 30px 30px 18px 30px;
+    }
+    .list-title {
+      text-align: center;
+      color: #ffd700;
+      font-size: 1.3em;
+      margin-bottom: 30px;
+      letter-spacing: 1.3px;
+      font-weight: 600;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      margin: 18px 0;
+      background: #212112;
+      border-radius: 8px;
+      transition: transform 0.07s;
+      box-shadow: 0 2px 8px 0 rgba(40,30,10,0.07);
+    }
+    a {
+      display: block;
+      padding: 20px;
+      color: #ffd700;
+      font-size: 1.12em;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background 0.15s, color 0.15s;
+    }
+    a:hover, a:active {
+      background: #ffd700;
+      color: #181818;
+      transform: scale(1.04);
+      text-shadow: 0 2px 4px #dac166;
+    }
+    @media (max-width: 600px) {
+      .list-container { padding: 16px 6px 10px 6px; }
+      .list-title { font-size: 1.01em; }
+      header { padding: 17px 0 8px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="icon">🏨</span>
+    <h1>ICON VISTA HOTELS</h1>
+  </header>
+  <div class="list-container">
+    <div class="list-title">Select an option:</div>
+    <ul>
+      <li>
+        <a href="https://www.google.com/maps/place/Fresh+Up,+Tirupati/@13.636205,79.4195777,17z/data=!4m8!3m7!1s0x3bb2bf34f6fad05b:0xbcdadb97eb7c0e3c!8m2!3d13.636205!4d79.4217664!9m1!1b1!16s%2Fg%2F11h68c912x#lrd=0x3bb2bf34f6fad05b:0xbcdadb97eb7c0e3c,3" target="_blank" rel="noopener">
+          1. Google review (FreshUp Tirupati)
+        </a>
+      </li>
+      <li>
+        <a href="tel:9912388818">
+          2. Room service (Call: 9912388818)
+        </a>
+      </li>
+      <li>
+        <a href="tel:9885584575">
+          3. Front desk (Call: 9885584575)
+        </a>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
